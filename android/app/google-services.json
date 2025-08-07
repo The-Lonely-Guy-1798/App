@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "62996163666",
+    "project_id": "freemium-novel-app",
+    "storage_bucket": "freemium-novel-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:62996163666:android:c9ee63a70d7e6595d8838b",
+        "android_client_info": {
+          "package_name": "com.example.freemium_novels_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "62996163666-rj3ftcqknd3156mqb03u77p1bhc7mqog.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.freemium_novels_app",
+            "certificate_hash": "42350c05de2b2798df9b1d6b6d4b54f76b015cec"
+          }
+        },
+        {
+          "client_id": "62996163666-76c98r69u2cv9c65c0bbim0tibd6i1fs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhu6ppCneGC_cBnp0q5nvznktKu9DBE9o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "62996163666-76c98r69u2cv9c65c0bbim0tibd6i1fs.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "62996163666-fvat4vdpmeadgldvg8jo1skm6p6ugckr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.freemiumNovelsApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

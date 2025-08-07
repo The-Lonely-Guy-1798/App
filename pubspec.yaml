@@ -1,0 +1,66 @@
+name: freemium_novels_app
+description: A Flutter app for reading freemium novels.
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Icons and UI Packages
+  cupertino_icons: ^1.0.2
+  carousel_slider: ^5.1.1
+  google_fonts: ^6.1.0
+  font_awesome_flutter: ^10.7.0 # Updated version
+  shimmer: ^3.0.0
+  
+  # Charting Package
+  fl_chart: ^0.68.0 # <-- ADDED: This will fix your errors
+  intl: ^0.19.0
+
+  # State Management & Services
+  provider: ^6.1.2
+  shared_preferences: ^2.2.3
+
+  # Firebase
+  firebase_core: ^2.25.4
+  firebase_auth: ^4.17.4
+  cloud_firestore: ^4.15.4
+  firebase_storage: ^11.6.5
+
+  # Social Logins
+  google_sign_in: ^6.2.1
+  flutter_facebook_auth: ^6.0.2
+
+  #Internet Connection
+  connectivity_plus: ^6.0.3
+
+  #HTTPS
+  http: ^1.2.1
+
+  share_plus: ^9.0.0
+  flutter_html: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+
+  # Asset declaration
+  assets:
+    - assets/logo.png
+
+  # Font declaration
+  # To use this, create a 'fonts' folder in your project's root
+  # and place the Cinzel-Regular.ttf (or similar) file inside it.
+  # fonts:
+  #   - family: Cinzel
+  #     fonts:
+  #       - asset: fonts/Cinzel-Regular.ttf
